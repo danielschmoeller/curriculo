@@ -1,0 +1,85 @@
+#folha{
+    width:595px;
+    height:1100px;
+    margin:auto;
+    position:relative;
+    background-color: rgb(194, 189, 189);
+    background-image: linear-gradient( to bottom, rgb(212, 209, 209), rgb(158, 153, 153), rgb(105, 105, 105) ) ;
+    
+    
+  }
+  #fotoperfil{
+    width:150px;
+    height:150px;
+    float:center;
+    border-radius:40px;
+    margin-top:20px;
+    margin-left:20px;
+     }
+  #nome{
+    float:left; 
+    margin-top:60px;
+    margin-left:30px;
+    font-family:arial;
+  }
+  #prof{
+    position:absolute;
+    margin-top:100px;
+    margin-left:205px;
+    
+  }  
+  .aba{
+    position:absolute;
+    margin-top:195px;
+    margin-left:30px;
+    width:505px;
+  }
+  .aba h1{
+    margin:0;
+    font-size:25px;
+  }
+  .sep{
+    width:100%;
+    height:1px;
+    color:black;
+    background:black;
+  }
+  .dados{
+    margin:0;
+    font-family:Sans-serif;
+    font-size: 16px;
+  }
+  .aba2{
+    position:absolute;
+    margin-top:415px;
+    margin-left:30px;
+    width:505px;
+  }
+  .aba2 h1{
+    margin:0;
+    font-size:25px;
+  }
+  .aba2 h3{
+    margin:0;
+    text-align: justify; 
+    
+  }
+  img{
+    width:20px;
+    height:20px;
+    float:left;
+    padding-right:10px;
+  }
+  @media print(){
+    body *{
+      visibility:hidden;
+    }
+    #estrutura, #estrutura *{
+      visibility:visible;
+    }
+    #estrutura{
+      position:fixed;
+      top:0;
+      left:0;
+    }
+  }
